@@ -1,6 +1,6 @@
 {
-    "name": "savvy-software/savvy-php",
-    "description": "Savvy API SDK for PHP",
+    "name": "savvy-telemetry/savvy-php",
+    "description": "Savvy Telemetry API SDK for PHP",
     "type": "library",
     "require": {
         "php": ">=7.4",
