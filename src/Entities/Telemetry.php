@@ -10,7 +10,7 @@ class Telemetry
     public ?array $attributes;
     public ?Context $context;
 
-    function __construct(string $action, ?array $attributes = null, ?Context $context)
+    function __construct(string $action, ?array $attributes = null, ?Context $context = null)
     {
         $this->action = $action;
         $this->attributes = $attributes;
