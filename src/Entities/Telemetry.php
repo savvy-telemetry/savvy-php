@@ -8,12 +8,12 @@ class Telemetry
 {
     public string $action;
     public ?array $attributes;
-    public ?Context $context;
+    public ?array $contexts;
 
-    function __construct(string $action, ?array $attributes = null, ?Context $context = null)
+    function __construct(string $action, ?array $attributes = null, ?array $contexts = null)
     {
         $this->action = $action;
         $this->attributes = $attributes;
-        $this->context = $context;
+        $this->contexts = $contexts;
     }
 }
